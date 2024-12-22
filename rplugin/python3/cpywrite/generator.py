@@ -418,12 +418,13 @@ _SOURCE_META = {
             ('.purs'): 'PureScript'
         },
          ('--', '-- ')],
-    ('.go', '.rs', '.fs', '.fsi', '.fsx', '.fsscript', '.scss'):
+    ('.go', '.rs', '.fs', '.fsi', '.fsx', '.fsscript', '.scss', '.zig', '.zon'):
         [{
             ('.go'): 'Go',
             ('.rs'): 'Rust',
             ('.fs', '.fsi', '.fsx', '.fsscript'): 'F-sharp',
-            ('.scss'): 'SASS'
+            ('.scss'): 'SASS',
+            ('.zig', '.zon'): 'Zig'
         },
          ('//', '// ')],
     ('.st'):
